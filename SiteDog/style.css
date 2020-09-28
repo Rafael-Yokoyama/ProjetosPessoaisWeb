@@ -1,9 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-
 }
-
 body,html{
     font-family: Arial, Helvetica, sans-serif;
     background: #000000 url(images/fundo.png)  repeat-x left;
@@ -14,31 +12,21 @@ body,html{
     min-width: 1190px;
  
 }
-
 #top{
     position: relative;
-  
 
 }
 #logo{
      width: 100%;
      height: 600px;
      position: absolute;
-
-
- 
     }
- 
-
 #paragrafos-home{
     font-size: 1.5em;
     color:#ffffff;
     padding-top: 40px;
     padding-left: 300px;
-   
 }
- 
-
 #menu-lateral{
     background:#D1824B ;
     margin-top: 35px;
@@ -49,15 +37,11 @@ body,html{
     top: 20px;
     right: 0;   
     border-radius: 30px ; 
-   
 }
 .balao{
     padding-top: 60px;
     padding-left: 70px;
 }
-
-   
-
 #rodape{
     position: fixed;
     width: 100%;
@@ -65,8 +49,7 @@ body,html{
     bottom: 0px;
     background: #ccc url(images/fundo.png);
     font-size: 1.1em;
-    color:#D1824B;
-   
+    color:#D1824B; 
 }
 .autoria-icons{
     font-size: 0.7em;
@@ -79,20 +62,15 @@ body,html{
  position: absolute;
  bottom: 41px;
  right: 310px;
- 
-
 
 }
 .linkfinal{
  position: absolute;
  font-size: 1.1em;
  padding: 14px;
- left: 300px;
+ left: 280px;
  top: 260px;
  border-radius: 30px;
- 
-
- 
 }
 .linkfinal a {
     color: black;
@@ -101,47 +79,48 @@ body,html{
     background: #D1824B;
     border-radius: 30px;
 }
-
-
 .linkfinal a:hover {
     color: black;
     padding: 14px;
- 
     background:#fff;
-    border-radius: 30px;
-   
+    border-radius: 30px; 
 }
-
+.adotar{
+  position: absolute;
+  bottom: 120px;
+  left: 300px;
+  width: 400px;
+  height: 40px;
+  line-height: 2.5em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #383838;
+ 
+}
+.adotar:hover{
+    background: #D1824B;
+    color: black;
+    cursor: none;
+}
 a{
   text-decoration: none;
 }
-
 ul{
     list-style: none;
 }
-
 ul li {
     margin-top: -14px;
     float: left;
-  
-  
-  
 }
 ul li a { 
-
     text-align: center;
- 
     color: white;
     text-transform: uppercase;
     font-family: cursive;
     padding: 20px;
- 
 }
 ul a:hover{
-   
     background: black; 
-  
-
 }
 body.Home #navegacao a#Home,
 body.Sobre #navegacao a#Sobre,
@@ -149,9 +128,8 @@ body.Racas #navegacao a#Racas ,
 body.Contato #navegacao a#Contato{
 
     background:#383838; 
- 
-  
-
 }
+
+/* Página Sobre" */
 
   
