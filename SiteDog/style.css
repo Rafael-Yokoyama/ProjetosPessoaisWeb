@@ -61,14 +61,18 @@ body,html{
 #rodape{
     position: fixed;
     width: 100%;
-    padding: 25px;
+    padding: 15px;
     bottom: 0px;
     background: #ccc url(images/fundo.png);
     font-size: 1.1em;
-    color:#D1824B ;
-
+    color:#D1824B;
    
-   
+}
+.autoria-icons{
+    font-size: 0.7em;
+}
+.autoria-link{
+    color: #fff;
 }
 
 .img-dog-lateral{
@@ -81,12 +85,13 @@ body,html{
 }
 .linkfinal{
  position: absolute;
-font-size: 1.1em;
+ font-size: 1.1em;
  padding: 14px;
  left: 300px;
-  top: 260px;
-
+ top: 260px;
  border-radius: 30px;
+ 
+
  
 }
 .linkfinal a {
@@ -101,6 +106,7 @@ font-size: 1.1em;
 .linkfinal a:hover {
     color: black;
     padding: 14px;
+ 
     background:#fff;
     border-radius: 30px;
    
