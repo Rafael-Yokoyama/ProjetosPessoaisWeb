@@ -7,9 +7,11 @@ body,html{
     background: #000000 url(images/fundo.png)  repeat-x left;
     color: #ffffff;
     margin: 0;
-    padding: 0;
     height: 100%;
     min-width: 1200px;
+   
+    
+   
     
  
 }
@@ -289,9 +291,59 @@ body.Contato #navegacao a#Contato
     color: #D1824B;
 
 }
- 
-
-
+ /* ágina Raças*/
+ .conteudo-racas{
+     background: #ffffff;
+     color:black;
     
+    
+     height: 200px;
+     text-align: justify;
+     
+ }
+ .conteudo-racas h3{
+     text-align: center;
+     text-transform: uppercase;
+ }
 
+ .imagem1, .imagem2{
+     position: relative;
+     height: 100%;
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+
+ }
+ 
+.imagem1{
+    background-image: url(images/pexels-photo-1884500.jpeg);
+    opacity: 0.85;
+}
+.imagem2{
+    background-image: url(images/pexels-photo-1124002.jpeg);
+}
+   
+ 
+.imagem1 h3{
+     font-size: 1.9em;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     letter-spacing: 4px;
+     line-height: 60px;
+     text-transform: uppercase;
+     padding: 80px;
+     text-align: left;
+     opacity: 0.4;
+ }
+.menutop-raca ul li  {
+   float: right;
+   padding-right: 40px;
+   padding-top: 100px;
   
+   
+}
+.menutop-raca a{
+    color: seashell;
+      padding: 20px;
+      text-transform: uppercase;
+}
