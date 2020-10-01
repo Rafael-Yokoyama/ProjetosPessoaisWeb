@@ -7,8 +7,9 @@ body,html{
     background: #000000 url(images/fundo.png)  repeat-x left;
     color: #ffffff;
     margin: 0;
+    min-width: 1200px; ;
     height: 100%;
-    min-width: 1200px;
+
    
     
    
@@ -33,13 +34,21 @@ body,html{
 #menu-lateral{
     background:#D1824B ;
     margin-top: 35px;
-    margin-right: 60px;
+    margin-right: 90px;
     width: 500px;
     height: 600px;
     position: absolute;
     top: 20px;
     right: 0;   
     border-radius: 30px ; 
+}
+
+
+.img-dog-lateral{
+ position: absolute;
+ bottom: 45px;
+ right: 310px;
+
 }
 .balao{
     padding-top: 60px;
@@ -61,12 +70,6 @@ body,html{
     color: #fff;
 }
 
-.img-dog-lateral{
- position: absolute;
- bottom: 41px;
- right: 310px;
-
-}
 .linkfinal{
  position: absolute;
  font-size: 1.1em;
@@ -295,13 +298,13 @@ body.Contato #navegacao a#Contato
  .conteudo-racas{
      background: #ffffff;
      color:black;
-    
-    
      height: 200px;
      text-align: justify;
+     cursor: none;
      
  }
  .conteudo-racas h3{
+     padding: 15px;
      text-align: center;
      text-transform: uppercase;
  }
@@ -331,19 +334,30 @@ body.Contato #navegacao a#Contato
      letter-spacing: 4px;
      line-height: 60px;
      text-transform: uppercase;
-     padding: 80px;
-     text-align: left;
-     opacity: 0.4;
+     padding: 80px ;
+     padding-left: 20px;
+     text-align: center;
+     opacity: 0.2;
+     
  }
-.menutop-raca ul li  {
-   float: right;
-   padding-right: 40px;
-   padding-top: 100px;
-  
-   
+ 
+.imagem1 h3:hover{
+    color:wheat;
+    opacity: 0.9;
+
 }
-.menutop-raca a{
-    color: seashell;
+
+.menutop-raca ul li a{
+
+     float: right;
+      color: red;
+      font-weight: bold;
       padding: 20px;
+      margin-top: 90px;
       text-transform: uppercase;
+}
+.menutop-raca  a:hover{
+    color:wheat;
+    background: none;
+
 }
