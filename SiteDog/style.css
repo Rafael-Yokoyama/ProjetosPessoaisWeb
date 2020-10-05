@@ -361,7 +361,7 @@ body.Contato #navegacao a#Contato
 
 
  
- .imagem1, .imagem2,.imagem3,.imagem4,.imagem5{
+ .imagem1, .imagem2,.imagem3,.imagem4,.imagem5,.imagem6{
      position: relative;
      height: 100%;
      background-attachment: fixed;
@@ -394,8 +394,10 @@ body.Contato #navegacao a#Contato
     background-image: url(images/corgifundo.jpg);
     opacity: 0.5;
 
-  
+}
+.imagem6{
 
+    background-image: url(images/pug.jpg);
 }
    
 
