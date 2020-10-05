@@ -9,11 +9,6 @@ body,html{
     margin: 0;
     min-width: 1200px; ;
     height: 100%;
-
-   
-    
-   
-    
  
 }
 #top{
@@ -57,12 +52,13 @@ body,html{
 #rodape{
     position: fixed;
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     bottom: 0px;
     background: #ccc url(images/fundo.png);
     font-size: 1em;
     color:#D1824B; 
 }
+
 .autoria-icons{
     font-size: 0.7em;
 }
@@ -311,9 +307,10 @@ body.Contato #navegacao a#Contato
  #racas-h4{
      position: absolute;
      top: 50%;
-     left: 0;
+     right: 40%;
+ 
      width: 100%;
-     text-align: center;     
+     text-align:center;     
  }
  #racas-h4 span.racas{
     padding: 18px;
@@ -327,11 +324,42 @@ body.Contato #navegacao a#Contato
 
   }
   #racas-h4 span.racas:hover{
+     
       background:white;
       color: black;
   }
  
- .imagem1, .imagem2,.imagem3,.imagem4{
+.racas a:hover{
+    
+    background:purple;
+    color: black;
+}
+
+.link-final-raca a{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    padding: 18px;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 5px;
+    background: black;
+    color: white;
+    border-radius: 100px;
+
+}
+
+.link-final-raca a:hover{
+    border-radius: 100px;
+    background:white;
+    color: black;
+    
+}
+
+
+
+ 
+ .imagem1, .imagem2,.imagem3,.imagem4,.imagem5{
      position: relative;
      height: 100%;
      background-attachment: fixed;
@@ -359,6 +387,13 @@ body.Contato #navegacao a#Contato
     opacity: 0.7;
 
 }
+.imagem5{
+    background-image: url(images/corgifundo.jpg);
+    opacity: 0.5;
+
+  
+
+}
    
  
 .imagem1 h3{
@@ -382,17 +417,31 @@ body.Contato #navegacao a#Contato
 
 }
 
-.menutop-raca ul li a{
+.menutop-raca ul{
+   
+     position: absolute;
+     top: 25px;
+     right: 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.menutop-raca li {
+    float: left;
+}
+.menutop-raca a{
+    color: white;
+    float: right;
+    font-size: 0.8em;
+   padding: 5px;
+   padding-right: 60px;
+ 
 
-     float: right;
-      color: red;
-      font-weight: bold;
-      padding: 20px;
-      margin-top: 90px;
-      text-transform: uppercase;
+
 }
 .menutop-raca  a:hover{
-    color:wheat;
-    background: none;
+    color:#D1824B;
+  background: none;
+    
+    
 
 }
