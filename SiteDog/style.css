@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -370,8 +372,9 @@ body.Contato #navegacao a#Contato
  }
  
 .imagem1{
-    background-image: url(images/pexels-photo-1884500.jpeg);
-    opacity: 0.85;
+    background:#D1824B;
+    opacity: 0.9;
+
 }
 .imagem2{
     background-image: url(images/pitbull\ .jpg);
@@ -395,27 +398,35 @@ body.Contato #navegacao a#Contato
 
 }
    
+
  
 .imagem1 h3{
-     font-size: 1.9em;
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     letter-spacing: 4px;
-     line-height: 60px;
-     text-transform: uppercase;
-     padding: 80px ;
-     padding-left: 20px;
-     text-align: center;
-     
    
+     color:black;
+     font-size: 40px;
+     letter-spacing: 6px;
+     line-height: 5em;
+     text-transform: uppercase;
+     text-align: center;
+     white-space: nowrap;
+     overflow: hidden;
+    
      
  }
- 
-.imagem1 h3:hover{
-    color:wheat;
-    opacity: 0.9;
+ .imagem1 h3 span{
+     color: white;
+     opacity: 0.9;
     
-
+ }
+ .img-top-raca{
+  
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    border-left: 10px solid white;
+    border-radius: 200px;
 }
+
 
 .menutop-raca ul{
    
