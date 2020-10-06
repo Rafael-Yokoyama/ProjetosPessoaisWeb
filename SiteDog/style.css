@@ -458,3 +458,91 @@ body.Contato #navegacao a#Contato
     
 
 }
+/* contato */
+
+.bodycontato{
+    background: #D1824B;
+
+}
+.conteiner{
+    position: absolute;
+    top: 5%;
+    left:  25%;
+    width: 800px;
+    height: 500px;
+    background: black;
+ 
+}
+.img-osso{
+    position: absolute;
+    top: 10%;
+    left: 48%;
+}
+.conteiner p{
+    position: relative;
+    font-family: 'Special Elite', cursive;
+    font-size: 1.5em;
+    top: 60%;
+    left: 40px;
+    border-width: 10px;
+    padding: 10px;
+}
+
+label{
+    position: relative;
+    font-family: 'Special Elite', cursive;
+  
+
+}
+.formulario{
+    position: absolute;;
+    top: 66%;
+    padding: 20px;
+    left: 30px;
+
+    
+}
+.formulario-1{
+    position: absolute;;
+    top: 76%;
+    padding: 20px;
+    left: 30px;
+
+}
+.formulario2{
+    position: absolute;;
+    top: 70%;
+    left: 300px;
+    
+  
+
+}
+.formulario2 textarea{
+    width: 400px;
+    height: 70px;
+}
+
+button{
+    position: absolute;;
+    top: 90%;
+    right: 100px;
+    height: 30px;
+    width: 180px;
+    border-radius: 50px;
+    font-weight: 700px;
+    font-family: 'Special Elite', cursive;
+    background: #D1824B;
+    color: #fff;
+}
+.hr{
+    width: 650px;
+    height: 2px;
+    background: white;
+    
+    position: absolute;;
+    top: 68%;
+    left: 50px;
+
+    
+   
+}
