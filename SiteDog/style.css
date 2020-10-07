@@ -6,11 +6,12 @@
 }
 body,html{
     font-family: Arial, Helvetica, sans-serif;
-    background: #000000 url(images/fundo.png)  repeat-x left;
+    background: #000000 url(images/fundo.png)  repeat;
     color: #ffffff;
     margin: 0;
-    min-width: 1200px; ;
+    min-width: 1280px; ;
     height: 100%;
+    
  
 }
 #top{
@@ -54,6 +55,7 @@ body,html{
 #rodape{
     position: fixed;
     width: 100%;
+    height: 10%;
     padding: 10px;
     bottom: 0px;
     background: #ccc url(images/fundo.png);
@@ -91,20 +93,15 @@ body,html{
 }
 .adotar{
   position: absolute;
-  bottom: 120px;
+  bottom: 190px;
   left: 300px;
   width: 400px;
   height: 40px;
   line-height: 2.5em;
   text-transform: uppercase;
   text-align: center;
-  color: #383838;
+  color: #D1824B;
  
-}
-.adotar:hover{
-    background: #D1824B;
-    color: black;
-    cursor: none;
 }
 a{
   text-decoration: none;
@@ -315,7 +312,9 @@ body.Contato #navegacao a#Contato
      text-align:center;     
  }
  #racas-h4 span.racas{
+     position: absolute;
     padding: 18px;
+    padding-top: 20px;
     text-transform: uppercase;
     font-size: 30px;
     letter-spacing: 5px;
@@ -361,7 +360,7 @@ body.Contato #navegacao a#Contato
 
 
  
- .imagem1, .imagem2,.imagem3,.imagem4,.imagem5,.imagem6{
+ .imagemtop,.imagem1,.imagem1-1,.imagem2,.imagem3,.imagem4,.imagem5,.imagem6{
      position: relative;
      height: 100%;
      background-attachment: fixed;
@@ -371,9 +370,18 @@ body.Contato #navegacao a#Contato
 
  }
  
-.imagem1{
+.imagemtop{
     background:#D1824B;
     opacity: 0.9;
+
+}
+.imagem1{
+    background-image: url(images/golden-retriever-620159_1920.jpg);
+    opacity: 0.7;
+}
+.imagem1-1{
+    background-image: url(images/pet-3635985_1920.jpg);
+    opacity: 0.7;
 
 }
 .imagem2{
@@ -381,28 +389,30 @@ body.Contato #navegacao a#Contato
     opacity: 0.7;
 }
 .imagem3{
-    background-image: url(images/dog-3386001_1280.jpg);
+    background-image: url(images/dalmata.jpg);
     opacity: 0.7;
 
 }
 .imagem4{
-    background-image: url(images/dog-4457095_1280.jpg);
+    background-image: url(images/pinscher.jpg);
     opacity: 0.7;
 
 }
 .imagem5{
     background-image: url(images/corgifundo.jpg);
-    opacity: 0.5;
+    opacity: 0.7;
 
 }
 .imagem6{
 
     background-image: url(images/pug.jpg);
+    opacity: 0.7;
+
 }
    
 
  
-.imagem1 h3{
+.imagemtop h3{
    
      color:black;
      font-size: 40px;
@@ -415,7 +425,7 @@ body.Contato #navegacao a#Contato
     
      
  }
- .imagem1 h3 span{
+ .imagemtop h3 span{
      color: white;
      opacity: 0.9;
     
@@ -461,87 +471,90 @@ body.Contato #navegacao a#Contato
 /* contato */
 
 .bodycontato{
+    position: fixed;
     background: #D1824B;
+    width: 100%;;
 
 }
-.conteiner{
-    position: absolute;
-    top: 5%;
-    left:  25%;
-    width: 800px;
-    height: 500px;
-    background: black;
- 
+
+.informacoes img{
+ float: left;
+  margin: -24px -390px;
+  
+
+    
 }
-.img-osso{
-    position: absolute;
-    top: 10%;
-    left: 48%;
-}
+
+
 .conteiner p{
-    position: relative;
+    top:40px;
+    position:relative;
     font-family: 'Special Elite', cursive;
     font-size: 1.5em;
-    top: 60%;
-    left: 40px;
-    border-width: 10px;
-    padding: 10px;
+    left: 67%;
+
 }
 
+
+
+.divformualrio{
+    padding: 0 20px;
+    width: 100%;
+    display: table;
+}
+form{
+ 
+    background: black;
+    margin: 30px auto;
+    width: 50%;
+    height: 500px;
+    box-shadow: 0 4px 8px #ccc;
+     }
+
+
+ input,textarea{
+     padding: 5px;
+    
+    display: flex;
+    margin:0 auto;
+    width: 80%;
+
+ }
+ textarea{
+     height:50px;
+ }
 label{
-    position: relative;
+    padding: 10px;
+    font-weight: 600;
     font-family: 'Special Elite', cursive;
+    padding-bottom: 5px;
+    display: inline-block;
   
 
 }
-.formulario{
-    position: absolute;;
-    top: 66%;
-    padding: 20px;
-    left: 30px;
 
-    
-}
-.formulario-1{
-    position: absolute;;
-    top: 76%;
-    padding: 20px;
-    left: 30px;
-
-}
-.formulario2{
-    position: absolute;;
-    top: 70%;
-    left: 300px;
-    
-  
-
-}
-.formulario2 textarea{
-    width: 400px;
-    height: 70px;
-}
 
 button{
-    position: absolute;;
-    top: 90%;
-    right: 100px;
+    position: relative;
+    top:10px;
+    left:  400px;
     height: 30px;
     width: 180px;
+    border: 1px solid #ffffff;
     border-radius: 50px;
     font-weight: 700px;
     font-family: 'Special Elite', cursive;
-    background: #D1824B;
+    background: #e07f53;
     color: #fff;
 }
-.hr{
-    width: 650px;
+.hr{ 
+    position: relative;
+    top: 40px;
+    left: 30px;
+    width: 610px;
     height: 2px;
-    background: white;
-    
-    position: absolute;;
-    top: 68%;
-    left: 50px;
+    background:white;
+  
 
     
    
