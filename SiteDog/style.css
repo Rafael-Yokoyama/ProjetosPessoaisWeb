@@ -38,6 +38,8 @@ body,html{
     position: absolute;
     top: 20px;
     right: 0;   
+    -webkit-border-radius: 30px ; 
+    -moz-border-radius: 30px ; 
     border-radius: 30px ; 
 }
 
@@ -76,6 +78,8 @@ body,html{
  padding: 14px;
  left: 280px;
  top: 260px;
+ -webkit-border-radius: 30px ; 
+ -moz-border-radius: 30px ; 
  border-radius: 30px;
 }
 .linkfinal a {
@@ -83,12 +87,16 @@ body,html{
     color: black;
     padding: 14px;
     background: #D1824B;
+    -webkit-border-radius: 30px ; 
+    -moz-border-radius: 30px ; 
     border-radius: 30px;
 }
 .linkfinal a:hover {
     color: black;
     padding: 14px;
     background:#fff;
+    -webkit-border-radius: 30px ; 
+    -moz-border-radius: 30px ; 
     border-radius: 30px; 
 }
 .adotar{
@@ -171,6 +179,8 @@ body.Contato #navegacao a#Contato
 
 .baixo-logo ul a:hover{
     background:  url(images/Grupo\ 15.png) no-repeat center right;
+    -webkit-border-radius: 30px ; 
+    -moz-border-radius: 30px ; 
     border-radius: 30px;
 }
 .coteudo-sobre{
@@ -356,11 +366,15 @@ body.Contato #navegacao a#Contato
     letter-spacing: 5px;
     background: black;
     color: white;
+    -webkit-border-radius: 100px ; 
+    -moz-border-radius: 100px ; 
     border-radius: 100px;
 
 }
 
 .link-final-raca a:hover{
+    -webkit-border-radius: 100px ; 
+    -moz-border-radius: 100px ; 
     border-radius: 100px;
     background:white;
     color: black;
@@ -430,8 +444,7 @@ body.Contato #navegacao a#Contato
      line-height: 5em;
      text-transform: uppercase;
      text-align: center;
-     white-space: nowrap;
-     overflow: hidden;
+   
     
      
  }
@@ -446,6 +459,8 @@ body.Contato #navegacao a#Contato
     top: 20%;
     left: 20%;
     border-left: 10px solid white;
+    -webkit-border-radius: 200px ; 
+    -moz-border-radius: 200px ; 
     border-radius: 200px;
 }
 
@@ -550,6 +565,8 @@ button{
     height: 30px;
     width: 180px;
     border: 1px solid #ffffff;
+    -webkit-border-radius: 50px ; 
+    -moz-border-radius: 50px ; 
     border-radius: 50px;
     font-weight: 700px;
     font-family: 'Special Elite', cursive;
