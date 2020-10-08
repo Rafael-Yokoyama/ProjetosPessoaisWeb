@@ -303,6 +303,16 @@ body.Contato #navegacao a#Contato
      text-align: center;
      text-transform: uppercase;
  }
+ .inicio-conteudo {
+    padding-top: 65px;
+    font-family: 'Special Elite', cursive;
+    line-height: 1.4em ;
+    font-weight: 500;
+    font-size: 1.3em;
+     color:#000000;
+     text-align: center;
+
+ }
  #racas-h4{
      position: absolute;
      top: 50%;
