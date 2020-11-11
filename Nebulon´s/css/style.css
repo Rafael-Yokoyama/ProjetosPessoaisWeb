@@ -1,0 +1,34 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,400;1,600&display=swap');
+
+ 
+ nav{
+   background:#101010;
+   color:white; 
+   font-weight: bold ;
+   font-family: 'Montserrat', sans-serif;
+
+  
+  }
+  nav div ul li{
+    color:white;
+  }
+
+ nav div ul li a {
+    color:white; 
+  }
+  
+  div ul li a:hover{
+   
+
+
+   border-bottom: 4px solid #765816;
+   display: inline;
+
+
+  }
+  #home{
+    background:black;
+    height: 100vh;
+  }
+ 
