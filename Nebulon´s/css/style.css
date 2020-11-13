@@ -105,6 +105,7 @@
   list-style: none;
 }
 .cardapio-direita h1{
+  
   font-family: 'Roboto', sans-serif;
   color: white;
 }
@@ -128,8 +129,9 @@
   
 }
 .cardapio-esquerda h1{
+
   padding-right: 35px;
-;
+
  
 }
 
@@ -145,6 +147,22 @@
   left:150px;
   bottom:160px;
 
+}
+.sucos ul li{
+  list-style: none;
+}
+.sucos h4{
+  font-family: 'Roboto', sans-serif;
+
+}
+.sucos h3{
+  font-family: 'Roboto', sans-serif;
+  color:white;
+}
+.sucos p{
+  font-size:15px;
+  font-family: 'Roboto', sans-serif;
+ color:black;
 }
 
 
